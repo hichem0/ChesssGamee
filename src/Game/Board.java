@@ -1,7 +1,7 @@
 package Game;
 import Pieces.*;
 public class Board {
-
+//this class board i took some inspiration from open source project like Srokit/chess-game-java and BorisDishov/Chess-Game
     private static int turn = 1;// 1 for white ,2 for black
     public Piece[][] InitBoard(){
         //create the tables for white pawn and black pawn

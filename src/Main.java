@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    // NB : Code Kill method (change permute on Update_Board maybe ?)
+
 
     public static void main(String[] args) {
         // Init Board

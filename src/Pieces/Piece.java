@@ -54,9 +54,10 @@ public abstract class Piece {
 
     public abstract String verifyPicture(Color color);
 
-    public boolean moveIsLegal(int x, int y) {
+   /* public boolean moveIsLegal(int x, int y) {
         return true;
-    }
+   }   */
+
 
 
 
