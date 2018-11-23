@@ -50,7 +50,9 @@ public abstract class Piece {
 
     public abstract String getPicture();
 
-    public abstract Color getColor();
+    public abstract  Color getColor() ;
+
+
 
     public abstract String verifyPicture(Color color);
 

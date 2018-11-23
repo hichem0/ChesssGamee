@@ -35,7 +35,7 @@ public class Pawn extends Piece {
 
         ArrayList<Board.Coordinate> allowedMoves = new ArrayList<>();
 
-        for (int i = 0; i < 4 ; i++) {
+        for (int i = 0; i < possibleMoves.size() ; i++) {
             Board.Coordinate destination = new Board.Coordinate(this.position.getX()+possibleMoves.get(i).getX(),
                     this.position.getY()+possibleMoves.get(i).getY());
 
